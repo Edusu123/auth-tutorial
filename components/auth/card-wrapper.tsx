@@ -35,7 +35,7 @@ export const CardWrapper = ({
       )}
 
       <CardFooter>
-        <BackButton href={"auth/register"} label={"Don't have an account?"} />
+        <BackButton href={backButtonHref} label={backButtonLabel} />
       </CardFooter>
     </Card>
   );
